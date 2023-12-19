@@ -5,8 +5,12 @@ import './App.css'
 function App() {
   return (
     <>
-      <div>
-      <p>frhetj</p>       
+      <div className='App'>
+      <div className='container'>
+      <h1>ToDo App</h1>  
+      <input type='text' placeholder='Add your task'></input>     
+      </div>
+      
       </div>
     </>
   )
