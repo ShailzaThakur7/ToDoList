@@ -1,5 +1,5 @@
 const {Router}=require("express")
-const {getToDo,saveToDo,updateToDo,DeleteToDo}=require('../controllers/ToDoController.js')
+const {getToDo,saveToDo,updateToDo,DeleteToDo}=require('../controllers/ToDoController.jsx')
 
 const router=Router()
 router.get('/',getToDo)
